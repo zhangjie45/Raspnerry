@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Raspnerry">
+    <output-path>$PROJECT_DIR$/out/artifacts/Raspnerry</output-path>
+    <root id="archive" name="Raspnerry.war">
+      <element id="artifact" artifact-name="Raspnerry1" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="commons-codec-1.9" />
+          <element id="library" level="project" name="commons-beanutils-1.7.0" />
+          <element id="library" level="project" name="json-lib-2.4-jdk15" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
